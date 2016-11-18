@@ -1,0 +1,55 @@
+body {
+  background-color: honeydew;
+}
+
+progress {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 10px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border: none;
+  background-color: transparent;
+  color: red;
+}
+
+progress::-webkit-progress-bar {
+  background-color: transparent;
+}
+
+progress::-webkit-progress-value {
+  background-color: #317873;
+}
+
+progress::-moz-progress-bar {
+  background-color: black;
+}
+
+
+.hero {
+    margin-bottom: -30px;
+}
+
+h2 {
+  font-family: 'Cabin Sketch', cursive;
+}
+
+h1 {
+  font-size: 100px;
+  font-family: 'Special Elite', cursive;
+  text-align: center;
+  color: #FFEEFG;
+}
+
+.wrap {
+  text-align: center;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+p {
+  font-family: 'Cabin Sketch', cursive;
+}
