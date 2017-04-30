@@ -1,5 +1,5 @@
 body {
-  background-color: honeydew;
+  background-color: white;
 }
 
 progress {
@@ -53,3 +53,14 @@ h1 {
 p {
   font-family: 'Cabin Sketch', cursive;
 }
+
+@media only screen and (max-width : 780px) {
+  .wrap {
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    }
+    h1 {
+      font-size: 3em;
+    }
+  }

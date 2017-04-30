@@ -1,1 +1,1 @@
-$(document).on("ready",function(){var o=$(window).height(),n=$(document).height(),t=$("progress"),e,r;e=n-o,t.attr("max",e),$(document).on("scroll",function(){r=$(window).scrollTop(),t.attr("value",r)})});
+$(document).on("ready",function(){var o=$(window).height(),t=$(document).height(),n=$("progress"),e,i;e=t-o,n.attr("max",e),$(document).on("scroll",function(){i=$(window).scrollTop(),n.attr("value",i)}),$(window).on("resize",function(){o=$(window).height(),t=$(document).height(),e=t-o,n.attr("max",e),i=$(window).scrollTop(),n.attr("value",i)})});
