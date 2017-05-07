@@ -29,19 +29,23 @@ progress::-moz-progress-bar {
 }
 
 
-.hero {
-    margin-bottom: -30px;
+h1 {
+  font-size: 100px;
+  font-family: 'Special Elite', cursive;
+  text-align: center;
+  color: #FFEEFG;
+  margin-bottom: 0px;
 }
 
 h2 {
   font-family: 'Cabin Sketch', cursive;
 }
 
-h1 {
-  font-size: 100px;
+h3 {
   font-family: 'Special Elite', cursive;
   text-align: center;
   color: #FFEEFG;
+  margin-bottom: 30px;
 }
 
 .wrap {
@@ -62,5 +66,8 @@ p {
     }
     h1 {
       font-size: 3em;
+    }
+    h3 {
+      font-size: 1em;
     }
   }
